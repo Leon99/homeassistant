@@ -107,8 +107,8 @@ Installation (Raspberry Pi)
     trigger:
       platform: state
       entity_id: binary_sensor.motion_sensor_158d000xxxxxc2
-      from: 'no_motion'
-	  to: 'motion'
+      from: 'off'
+	  to: 'on'
 	  
     #trigger for motion sensor using Event
 	
